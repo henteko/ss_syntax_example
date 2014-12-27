@@ -9,7 +9,6 @@
         handleChange: function(event) {
             var data = {text: event.target.value};
             $.post('/parse.json', data, function(result) {
-                console.log(result);
                 var html = result['html'];
                 this.setState({
                     html: html
