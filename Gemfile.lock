@@ -20,7 +20,7 @@ GEM
       sinatra (~> 1.4.0)
       tilt (~> 1.3)
     slop (3.6.0)
-    ss_syntax (0.0.3)
+    ss_syntax (0.0.4)
       slop
     tilt (1.4.1)
 
@@ -30,4 +30,4 @@ PLATFORMS
 DEPENDENCIES
   sinatra
   sinatra-contrib
-  ss_syntax
+  ss_syntax (~> 0.0.4)

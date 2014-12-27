@@ -25,7 +25,7 @@
                         <form role="form">
                             <div className="form-group">
                                 <label for="name">SS Input</label>
-                                <textarea className="form-control" rows="3" onChange={this.handleChange}></textarea>
+                                <textarea className="form-control" rows="20" onChange={this.handleChange}></textarea>
                             </div>
                         </form>
                     </div>
